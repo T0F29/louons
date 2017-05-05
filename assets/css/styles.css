@@ -1,0 +1,32 @@
+body {
+    /*font-family: verdana, arial, helvetica, sans-serif;*/
+    /*color: #463F3E;*/
+}
+
+#bandeauHeader {
+    margin-bottom: 20px;
+}
+
+#titreHeader {
+    padding-top: 20px;
+    text-align: center;
+}
+
+#diaporama {
+    margin-bottom: 20px;
+}
+
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    margin: auto;
+}
+
+/*footer {
+    background-color: #878C95;
+    color: #ffffff;
+    text-align: center;
+}*/
+
+
+
+
+
