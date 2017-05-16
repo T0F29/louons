@@ -2,7 +2,7 @@
 
 namespace Locations\Model\Entities;
 
-class Semaine {
+class Se_loue {
     
     private $id;
     private $location;

@@ -5,8 +5,6 @@ namespace Locations\Model\Dao;
 use \PDO as PDO;
 use \Locations\Model\Entities\Pays;
 
-require_once(dirname(__FILE__).'/BDD.php');
-require_once(dirname(__FILE__).'/../entities/Pays.php');
 
 class DAOPays {
     

@@ -6,9 +6,6 @@ use \PDO as PDO;
 use Locations\Model\Entities\Subdivision1;
 use Locations\Model\Entities\Subdivision2;
 
-require_once(dirname(__FILE__).'/BDD.php');
-require_once(dirname(__FILE__).'/../entities/Subdivision1.php');
-require_once(dirname(__FILE__).'/../entities/Subdivision2.php');
 
 class DAOSubdivision2 {
     

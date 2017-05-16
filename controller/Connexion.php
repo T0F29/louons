@@ -4,7 +4,6 @@ namespace Locations\Controller;
 
 use Locations\View\View;
 
-include(dirname(__FILE__).'/Controller.class.php');
 
 class Connexion extends Controller{
 

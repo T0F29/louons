@@ -26,10 +26,6 @@
     <div class="col-md-8">
 
         <div class="row">
-            
-            <ul>
-                <li>Aperçu</li>
-            </ul>
 
             <div class="col-xxs-12">
                 

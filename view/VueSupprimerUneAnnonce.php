@@ -15,8 +15,7 @@
 
             <form method="post" action="index.php?action=TraiterSupprimerUneAnnonce">
                 Voulez-vous vraiment supprimer définitivement l'annonce ci-dessous?
-                <button type="submit" class="btn btn-danger pull-right">Supprimer</button> 
-                <!--<button type="button" class="btn btn-secondary pull-right" onclick="location.href='index.php?action=MesAnnonces'">Annuler</button>-->
+                <button type="submit" class="btn btn-danger pull-right">Supprimer</button>
                 <a class="btn btn-default pull-right" href="index.php?action=MesAnnonces" role="button">Annuler</a>
             </form>
 

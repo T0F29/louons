@@ -7,14 +7,11 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
-        <link rel="stylesheet" href="assets/css/bootstrap.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link rel="stylesheet" href="assets/css/grille-avancee.css">
         <link rel="stylesheet" href="assets/css/styles.css">
-        <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>-->
-        <script src="assets/js/jquery-3.2.1.js"></script>
-        <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
-        <script src="assets/js/bootstrap.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     </head>
     
     <body>
@@ -42,9 +39,8 @@
                             </div>
                             <div id="navbar" class="collapse navbar-collapse">
                                 <ul class="nav navbar-nav">
-                                    <li <?php if ($_SERVER['REQUEST_URI'] == "index.php?action=Recherche") echo 'class="active"'; ?>><?php if ($_SERVER['REQUEST_URI'] != "index.php?action=Recherche") echo '<a href="index.php?action=Recherche">Recherche</a>'; else echo 'Recherche'; ?></li>
-                                    <li><a href="index.php?action=Nouveautes">Nouveautés</a></li>
-                                    <li><a href="#contact">Contact</a></li>
+                                    <li<?php if ($_SERVER['REQUEST_URI'] == "index.php?action=Annonces") echo 'class="active"'; ?>><?php if ($_SERVER['REQUEST_URI'] != "index.php?action=Annonces") echo '<a href="index.php?action=Annonces">Annonces</a>'; else echo 'Annonces'; ?></li>
+                                    <li<?php if ($_SERVER['REQUEST_URI'] == "index.php?action=Recherche") echo 'class="active"'; ?>><?php if ($_SERVER['REQUEST_URI'] != "index.php?action=Recherche") echo '<a href="index.php?action=Recherche">Recherche</a>'; else echo 'Recherche'; ?></li>
                                     <?php if (isset($_SESSION['utilisateur_connecte'])): ?>
                                     <li>
                                         <a href="index.php?action=MesAnnonces">Mes annonces</a>  

@@ -11,14 +11,6 @@ use Locations\Model\Dao\DAOSubdivision2;
 use Locations\Model\Dao\DAOType;
 use Locations\View\View;
 
-include(dirname(__FILE__).'/Controller.class.php');
-include(dirname(__FILE__).'/../model/dao/DAOAnnonce.php');
-include(dirname(__FILE__).'/../model/dao/DAOEnvironnement.php');
-include(dirname(__FILE__).'/../model/dao/DAOPays.php');
-include(dirname(__FILE__).'/../model/dao/DAOPhoto.php');
-include(dirname(__FILE__).'/../model/dao/DAOSubdivision1.php');
-include(dirname(__FILE__).'/../model/dao/DAOSubdivision2.php');
-include(dirname(__FILE__).'/../model/dao/DAOType.php');
 
 class ModifierUneAnnonce extends Controller{
 

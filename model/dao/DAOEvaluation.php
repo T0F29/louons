@@ -13,16 +13,6 @@ use Locations\Model\Entities\Subdivision1;
 use Locations\Model\Entities\Subdivision2;
 use \Locations\Model\Entities\Type;
 
-require_once(dirname(__FILE__).'/BDD.php');
-require_once(dirname(__FILE__).'/../entities/Environnement.php');
-require_once(dirname(__FILE__).'/../entities/Type.php');
-require_once(dirname(__FILE__).'/../entities/Subdivision2.php');
-require_once(dirname(__FILE__).'/../entities/Subdivision1.php');
-require_once(dirname(__FILE__).'/../entities/Pays.php');
-require_once(dirname(__FILE__).'/../entities/Statut_membre.php');
-require_once(dirname(__FILE__).'/../entities/Membre.php');
-require_once(dirname(__FILE__).'/../entities/Location.php');
-require_once(dirname(__FILE__).'/../entities/Evaluation.php');
 
 class DAOEvaluation {
     

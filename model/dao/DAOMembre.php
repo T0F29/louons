@@ -7,10 +7,6 @@ use Locations\Model\Entities\Membre;
 use Locations\Model\Entities\Pays;
 use Locations\Model\Entities\Statut_membre;
 
-require_once(dirname(__FILE__).'/BDD.php');
-require_once(dirname(__FILE__).'/../entities/Pays.php');
-require_once(dirname(__FILE__).'/../entities/Statut_membre.php');
-require_once(dirname(__FILE__).'/../entities/Membre.php');
 
 class DAOMembre {
     

@@ -2,9 +2,10 @@
 
 namespace Locations;
 
-include('config.inc.php');
+require('vendor/autoload.php');
+require('config.inc.php');
 
-include('view/View.php');
+use Locations\View\View;
 
 session_start();
 
@@ -76,7 +77,7 @@ if ($direct_rendering){ //don't render with template
         );
     //var_dump($donnees);
     //charger la vue
-    $tpl = new View\View('templatePrincipal');
+    $tpl = new View('templatePrincipal');
 
     $tpl->rendre($donnees);
 }

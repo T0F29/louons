@@ -14,17 +14,6 @@ use Locations\Model\Entities\Subdivision2;
 use Locations\Model\Entities\Type;
 use Locations\Model\Dao\DAOLocation;
 
-require_once(dirname(__FILE__).'/BDD.php');
-require_once(dirname(__FILE__).'/../entities/Environnement.php');
-require_once(dirname(__FILE__).'/../entities/Type.php');
-require_once(dirname(__FILE__).'/../entities/Subdivision2.php');
-require_once(dirname(__FILE__).'/../entities/Subdivision1.php');
-require_once(dirname(__FILE__).'/../entities/Pays.php');
-require_once(dirname(__FILE__).'/../entities/Statut_membre.php');
-require_once(dirname(__FILE__).'/../entities/Membre.php');
-require_once(dirname(__FILE__).'/../entities/Location.php');
-require_once(dirname(__FILE__).'/../entities/Annonce.php');
-require_once(dirname(__FILE__).'/../dao/DAOLocation.php');
 
 class DAOAnnonce {
     
@@ -373,8 +362,8 @@ class DAOAnnonce {
         
         $req = $pdo->prepare(
                 "SELECT COUNT(*) "
-                . "FROM annonce AS a"
-                . "INNER JOIN location AS l ON a.location_id = l.id"
+                . "FROM annonce AS a "
+                . "INNER JOIN location AS l ON a.location_id = l.id "
                 . "WHERE a.id = :id_annonce AND l.proprietaire_id = :id_membre");
         $req->bindValue(':id_annonce', $idAnnonce);
         $req->bindValue(':id_membre', $idMembre);

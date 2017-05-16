@@ -14,15 +14,6 @@ use Locations\Model\Entities\Annonce;
 use Locations\Model\Entities\Location;
 use Locations\View\View;
 
-include(dirname(__FILE__).'/Controller.class.php');
-include(dirname(__FILE__).'/../model/dao/DAOAnnonce.php');
-include(dirname(__FILE__).'/../model/dao/DAOEnvironnement.php');
-include(dirname(__FILE__).'/../model/dao/DAOMembre.php');
-include(dirname(__FILE__).'/../model/dao/DAOPays.php');
-include(dirname(__FILE__).'/../model/dao/DAOSubdivision1.php');
-include(dirname(__FILE__).'/../model/dao/DAOSubdivision2.php');
-include(dirname(__FILE__).'/../model/dao/DAOType.php');
-
 
 class TraiterAjouterUneAnnonce extends Controller{  
     

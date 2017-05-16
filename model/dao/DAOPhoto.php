@@ -5,8 +5,6 @@ namespace Locations\Model\Dao;
 use \PDO as PDO;
 use Locations\Model\Entities\Photo;
 
-require_once(dirname(__FILE__).'/BDD.php');
-require_once(dirname(__FILE__).'/../entities/Photo.php');
 
 class DAOPhoto {
     

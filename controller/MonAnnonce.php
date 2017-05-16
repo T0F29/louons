@@ -6,9 +6,6 @@ use Locations\Model\Dao\DAOAnnonce;
 use Locations\Model\Dao\DAOPhoto;
 use Locations\View\View;
 
-include(dirname(__FILE__).'/Controller.class.php');
-include(dirname(__FILE__).'/../model/dao/DAOAnnonce.php');
-include(dirname(__FILE__).'/../model/dao/DAOPhoto.php');
 
 class MonAnnonce extends Controller{
 

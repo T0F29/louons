@@ -5,7 +5,6 @@ namespace Locations\Model\Dao;
 use \PDO as PDO;
 use \Locations\Model\Entities\Se_loue;
 
-require_once(dirname(__FILE__).'/BDD.php');
 
 class DAOSe_loue {
     

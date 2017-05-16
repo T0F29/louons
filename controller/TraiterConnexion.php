@@ -3,13 +3,8 @@
 namespace Locations\Controller;
 
 use Locations\Model\Dao\DAOMembre;
-use Locations\Model\Dao\DAOUtilisateur_connecte;
-use Locations\Model\Entities\Utilisateur_connecte;
 use Locations\View\View;
 
-include(dirname(__FILE__).'/Controller.class.php');
-include(dirname(__FILE__).'/../model/dao/DAOMembre.php');
-include(dirname(__FILE__).'/../model/entities/Utilisateur_connecte.php');
 
 class TraiterConnexion extends Controller{  
     

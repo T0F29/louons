@@ -8,11 +8,6 @@ use Locations\Model\Dao\DAOPhoto;
 use Locations\Model\Dao\DAOSe_loue;
 use Locations\View\View;
 
-include(dirname(__FILE__).'/Controller.class.php');
-include(dirname(__FILE__).'/../model/dao/DAOAnnonce.php');
-include(dirname(__FILE__).'/../model/dao/DAOEvaluation.php');
-include(dirname(__FILE__).'/../model/dao/DAOPhoto.php');
-include(dirname(__FILE__).'/../model/dao/DAOSe_loue.php');
 
 class MesAnnonces extends Controller{
 

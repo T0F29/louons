@@ -2,7 +2,6 @@
 
 namespace Locations\Controller;
 
-include(dirname(__FILE__).'/Controller.class.php');
 
 class Deconnexion extends Controller{
 
