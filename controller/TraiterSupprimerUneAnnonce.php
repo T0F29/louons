@@ -5,7 +5,6 @@ namespace Locations\Controller;
 use Locations\Model\Dao\DAOAnnonce;
 
 
-
 class TraiterSupprimerUneAnnonce extends Controller{  
     
     public function lancer() {
